@@ -20,7 +20,7 @@ class Cart {
   hapusProduk(name) {
     for (var i in this.items_array) {
       if (this.items_array[i][0] == name) {
-        this.items_array.splice(0, i);
+        this.items_array.splice(i, 1);
         break;
       }
     }
