@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test coding Data Structure</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <h1>Shop simple cart javascript</h1>
+        <div id="items">check on console javascript</div>
+      </div>
+    </div>
+    <script src="Cart.js"></script>
+    <script type="text/javascript">
+      keranjang = new Cart();
+
+      keranjang.tambahProduk("Pisang Hijau", 2);
+
+      keranjang.tambahProduk("Semangka Kuning", 3);
+
+      keranjang.tambahProduk("Apel Merah", 1);
+      keranjang.tambahProduk("Apel Merah", 4);
+      keranjang.tambahProduk("Apel Merah", 2);
+
+      keranjang.hapusProduk("Semangka Kuning");
+
+      keranjang.hapusProduk("Semangka Merah");
+
+      keranjang.tampilkanProduk();
+    </script>
+  </body>
+</html>
